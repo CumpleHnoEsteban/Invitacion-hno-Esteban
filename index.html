@@ -278,20 +278,7 @@ footer{
   <div class="rsvp">
     <h2>Confirmación de asistencia</h2>
     <p>Será un gusto contar con su presencia.</p>
-    <form onsubmit="event.preventDefault();document.getElementById('notice').style.display='block';">
-      <label for="nombre">Nombre</label>
-      <input id="nombre" name="nombre" required>
-      <label for="asistencia">¿Nos acompañará?</label>
-      <select id="asistencia" name="asistencia" required>
-        <option value="">Seleccione una opción</option>
-        <option>Confirmo mi asistencia</option>
-        <option>No podré asistir</option>
-      </select>
-      <button class="btn" type="submit">Enviar confirmación</button>
-    </form>
-    <p id="notice" style="display:none;color:#7b4b70;font-weight:bold;margin-bottom:0;">
-      Gracias por confirmar su asistencia.
-    </p>
+    <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSfaWXOXjmBqvn_GTSLsA9UPiHV0WsMoSHNhi_Wewq_EZo7uXw/viewform?usp=dialog" target="_blank" rel="noopener">Confirmar asistencia</a>
   </div>
 </section>
 
