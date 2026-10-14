@@ -48,6 +48,25 @@ section{
   text-align:center;
 }
 
+
+.cover{
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  padding:28px 25px 55px;
+}
+.cover img{
+  display:block;
+  width:100%;
+  max-width:650px;
+  height:auto;
+  border:1px solid rgba(123,75,112,.18);
+  border-radius:24px;
+  box-shadow:0 14px 35px rgba(80,60,70,.13);
+}
+
 .hero{
   min-height:100vh;
   display:flex;
@@ -201,6 +220,12 @@ footer{
 </head>
 <body>
 <div class="page">
+
+
+<section class="cover">
+  <img src="portada.png" alt="Portada del Culto de Acción de Gracias">
+  <a class="btn" href="#invitacion">Abrir invitación</a>
+</section>
 
 <section class="hero">
   <div>
